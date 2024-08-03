@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+     <style>
+    body{
+        background-color: #414141;
+        color: #fff;
+    }
+   </style>
+</head>
+<body>
+   <h1>Forms in HTML</h1>
+   <form action="URL" method="get" accept-charset="UTF-16" autocomplete="off">
+
+    <label for="fname">First Name</label>
+    <br/>
+
+    <input type="text" placeholder="Type Your Name..." name="" id="fname">
+    <br/>
+    <label for="weekname">Date Of Birth</label> 
+    <br/>
+    <input type="week" name="" id="">
+    <br/>
+    <input type="reset" value="reset">
+<br/>
+    <!-- <label for="selection">Select This Option</label>   -->     <!--  this line is incorrect-->
+
+    <select name="editors" id="" multiple>
+    <br/>
+    <option value="vscode">VsCode</option>
+    <option value="sublime">Sublime</option>
+    <option value="macbook">MacBook</option>
+    </select>
+    <br/>
+
+    <input list="editors" name="editor">
+    <datalist
+     id="editors">
+    <option value="vscode">VsCode</option>
+    <option value="sublime">Sublime</option>
+    <option value="macbook">MacBook</option>
+    </datalist>
+
+
+
+    
+    <button type="submit">submit</button>
+   </form>
+</body>
+</html>
